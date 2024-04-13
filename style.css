@@ -1,0 +1,86 @@
+body{
+    background-color: #0c0c0f;
+    color:rgb(232, 221, 221);
+    font-family: Calibri;
+    font-size: 110%;
+    background-image: url("texture.jpg");
+    background-size:contain;
+    opacity: 90%;
+}
+main{
+    opacity: 100%;
+    padding: 30px;
+    padding-top: 80px;
+}
+
+a img{
+    display: inline;
+    margin-top: 10px;
+    margin-left: 5px;
+    width: 3%;
+
+}
+
+footer{
+    padding-top: 15px;
+    text-align: center;
+    width: 100%;
+    background-color: rgb(210, 208, 208);
+    color: #0c0c0f;
+    height: auto;
+    overflow: hidden;
+    left: 0px;
+    position: absolute;
+}
+
+
+nav {
+    top:0;
+    left:0;
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    background-color: rgb(210, 208, 208);
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden; 
+}
+
+nav ul li {
+    float: left; 
+}
+
+nav ul li a {
+    display: block;
+    color: #0c0c0f;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #044987; 
+    color: rgb(210, 208, 208);
+}
+#nome{
+    text-align: center;
+}
+img{
+    border-radius: 30%;
+    width: 200px;
+    display: block;
+    margin: auto;
+
+}
+#habilidades{
+    display: flex;
+}
+#habilidades h2{
+    margin-top: 40px;
+    margin-left: 100px;
+    
+}
